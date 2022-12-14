@@ -1,0 +1,43 @@
+#exploreDetailContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#exploreDetailAvailableTextContainer{
+    width: 100%;
+    text-align: left;
+    font-family: impact;
+    font-size: 4ch;
+}
+
+#exploreDetailOwnerContainer{
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-family: impact;
+    font-size: 2ch;
+}
+
+#exploreDetailButtonContainer{
+    width: 100%;
+    height: fit-content;
+    text-align: left;
+    color: white;
+    font-family: impact;
+    font-size: 2ch;
+}
+
+#exploreDetailDateSelectorContainer{
+    width: 100%;
+    height: fit-content;
+    text-align: left;
+    color: white;
+    font-family: impact;
+    font-size: 2ch;
+}
+
+#exploreDetailContainer > *{
+    margin: 95px 0px -80px 5px;
+}

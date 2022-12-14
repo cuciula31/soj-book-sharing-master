@@ -1,0 +1,30 @@
+#myBookContainer{
+    position: relative;
+    /* display: flex;
+    flex-flow: row nowrap; */
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+}
+
+#myBookTitlePropsContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 55%;
+}
+
+#myBookDetailsContainer{
+    width: 30%;
+    height: 100%;
+}
+
+#myBookTitleContainer{
+    width: 60%;
+    height: 100%;
+}
+
+#myBookContainer > div {
+    margin: 50px 0px -20px 5px;
+}

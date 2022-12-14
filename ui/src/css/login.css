@@ -1,0 +1,106 @@
+#pageContainer{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+#fieldsContainer{
+
+    background-color: rgba(48, 48, 48, 0.397);
+    height: 100%;
+    width: 20%;
+    
+    position: relative;
+}
+
+#loginWelcome{
+    position: absolute;
+    top: 20%;
+    font-size: 40px;
+    left: 35%;
+    color: white;
+}
+
+
+
+#loginPhoto{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+@keyframes photoFadeIn {
+    0%{
+        opacity: 0%;
+    }
+    100% {
+        opacity: 40%;
+    }
+}
+
+@keyframes textFadeIn {
+    0%{
+        opacity: 0%;
+    }
+    100% {
+        opacity: 90%;
+    }
+}
+
+#photoContainer{
+
+    background: url("../drawable/donLogin.jpg");
+    height: 100%;
+    width: 100%;
+    opacity: 40%;
+    background-position: 45% 15%;
+    animation-name: photoFadeIn;
+    animation-duration: 6s;
+
+}
+
+
+
+#loginText{
+    position: absolute;
+    width: 1000px;
+    height: fit-content;
+    right: 15%;
+    top: 25%;
+    font-size: 40px;
+    opacity: 90%;
+    font-family: 'fantasy', 'papyrus';
+    color: #f2dcb1;
+    filter: drop-shadow(0 0 0.75rem #f2dcb1);
+    box-shadow: 5px;
+    /* animation-name: textFadeIn;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out; */
+}
+
+
+
+
+#authorText{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    right: 15%;
+    bottom: 35%;
+    font-size: 30px;
+    font-family: 'fantasy', 'papyrus';
+    opacity: 90%;
+    color: #f2dcb1;
+    filter: drop-shadow(0 0 0.75rem #f2dcb1);
+    box-shadow: 5px;
+    /* animation-name: textFadeIn;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out; */
+   
+}
+

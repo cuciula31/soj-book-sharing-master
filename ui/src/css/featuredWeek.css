@@ -1,0 +1,50 @@
+#greetingPhotoContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../drawable/gotham.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 40%;
+    animation-name: greetingFade;
+     animation-duration: 5s;
+}
+
+/* #greetingPhotoBlurContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 75%;
+    z-index: 2;
+    top: 0%;
+} */
+
+#blindPickContainer{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    z-index: 2;
+}
+
+
+
+#greetingText{
+    position: absolute;
+    height: fit-content;
+    width: 50%;
+    right: 12%;
+    color: rgb(253, 255, 223);
+    filter: drop-shadow( 0 0 5rem #b9b9b9);
+    z-index: 3;
+    top: 20%;
+    font-size: 50px;
+    font-family: Stencil, fantasy;
+}
+#greetingCarouselContainer{
+    position: absolute;
+    width: 100%;
+    z-index: 11;
+    bottom: 15%;
+}

@@ -1,0 +1,111 @@
+#registerContainer{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#fieldsContainer{
+
+    background-color: rgba(48, 48, 48, 0.397);
+    height: 100%;
+    width: 20%;
+    
+    position: relative;
+}
+
+#registerWelcome{
+    position: absolute;
+    top: 10%;
+    font-size: 40px;
+    left: 20%;
+    color: white;
+}
+
+
+
+#registerPhoto{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+@keyframes photoFadeIn {
+    0%{
+        opacity: 0%;
+    }
+    100% {
+        opacity: 40%;
+    }
+}
+
+@keyframes textFadeIn {
+    0%{
+        opacity: 0%;
+    }
+    100% {
+        opacity: 90%;
+    }
+}
+
+#registerPhotoContainer{
+
+    background: url("../drawable/sunRegister.jpg");
+    height: 100%;
+    width: 100%;
+    opacity: 40%;
+    background-position: 45% 0%;
+    animation-name: photoFadeIn;
+    animation-duration: 6s;
+
+}
+
+
+
+#registerText{
+    position: absolute;
+    width: 1000px;
+    height: fit-content;
+    right: 15%;
+    top: 35%;
+    font-size: 40px;
+    opacity: 90%;
+    font-family: 'fantasy', 'papyrus';
+    color: #f2dcb1;
+    filter: drop-shadow(0 0 0.75rem #f2dcb1);
+    box-shadow: 5px;
+    /* animation-name: textFadeIn;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out; */
+}
+
+
+
+
+#authorText{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    right: 15%;
+    bottom: 40%;
+    font-size: 30px;
+    font-family: 'fantasy', 'papyrus';
+    opacity: 90%;
+    color: #f2dcb1;
+    filter: drop-shadow(0 0 0.75rem #f2dcb1);
+    box-shadow: 5px;
+    /* animation-name: textFadeIn;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out; */
+   
+}
+
+#terms{
+    position: absolute;
+    width: 60%;
+    height: fit-content;
+    bottom: 17%;
+    color: white;
+    left: 15%;
+}

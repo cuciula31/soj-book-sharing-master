@@ -1,0 +1,68 @@
+
+#myBooksContainer{
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    display: block;
+    overflow: auto;
+    background-color: black;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+#MyBooksSubContainer{
+    position: relative;
+    min-width: 100vw;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+}
+
+@keyframes colorFade {
+    0%{
+        background-color: black;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+#addNewBookButton{
+    animation-name: colorFade;
+    animation-duration: 2500ms;
+}
+
+#addNewBookButton:hover{
+    background-color: green;
+    
+}
+
+
+#myBooksListSubContainer{
+    position: absolute;
+    min-width: 100vw;
+    width: fit-content;
+    min-height: 100vh;
+    height: auto;
+    left: 3%;
+}
+#myBooksList{
+    overflow: hidden;
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    /* gap: 20px; */
+    width: 100%;
+    height: fit-content;
+    max-width: 100%;
+    background-color: black;
+    min-height: 100vh;
+}
+
+
+
+
+#myBooksList > *{
+margin: 40px 8px 53px 8px;
+}

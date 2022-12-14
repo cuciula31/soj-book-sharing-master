@@ -1,0 +1,33 @@
+#rentalContainer{
+    position: absolute;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#pendingsContainer{
+    width: 95%;
+    min-height: fit-content;
+}
+
+#rentalsContainer{
+    width: 95%;
+    min-height: fit-content;
+}
+
+#rejectedContainer{
+    width: 95%;
+    min-height: fit-content;
+}
+
+#endedContainer{
+    width: 95%;
+    min-height: fit-content;
+}
+
+#rentalContainer > *{
+margin: 40px 8px 53px 8px;
+}

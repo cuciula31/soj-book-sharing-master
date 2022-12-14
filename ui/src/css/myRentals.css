@@ -1,0 +1,20 @@
+#myRentalsContainer{
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+    height: fit-content;
+    display: block;
+    overflow: auto;
+    background-color: black;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+#MyRentalsSubContainer{
+    top: 10%;
+    position: absolute;
+    min-width: 100vw;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+}

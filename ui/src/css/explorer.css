@@ -1,0 +1,43 @@
+#explorerMainContainer{
+    position: relative;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    display: block;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#exploreMainSubContainer{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#allBooksListSubContainer{
+    position: absolute;
+    top: 15%;
+    min-width: 100vw;
+    width: fit-content;
+    min-height: 100vh;
+    height: auto;
+    left: 3%;
+}
+#allBooksList{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    /* gap: 20px; */
+    width: 100%;
+    height: fit-content;
+    max-width: 100%;
+    background-color: black;
+    min-height: 100vh;
+}
+
+#allBooksList > *{
+    margin: 40px 8px 53px 8px;
+    }

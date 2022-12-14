@@ -1,0 +1,47 @@
+#bookTitleContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#bookTitleCoverContainer{
+    width: 30%;
+    height: 100%;
+}
+
+#bookTitleCover{
+    width: 100%;
+    height: 100%;
+}
+
+#bookTitleContentContainer{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#bookTitle{
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6ch;
+}
+
+#bookCategory{
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3ch;
+}
+
+#bookTitleContainer > * {
+    margin: 40px 20px 53px 40px;
+}
+
+#bookTitleContentContainer > *{
+    margin: 40px 20px -30px 10px;
+}

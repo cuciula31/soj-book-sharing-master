@@ -1,0 +1,57 @@
+#myAccountContainer{
+    background-color: black;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#accountContainerBar{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    top: 5%;
+    background-color: rgb(73, 73, 73);
+}
+
+#accountSomeListingsText{
+    position: absolute;
+    top: 26%;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#accountSomeListings{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 34%;
+
+}
+
+#accountSomeRentalsText{
+    position: absolute;
+    top: 59%;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#accountSomeListingsCarousel{
+    position: absolute;
+    width: 100vw;
+    height: 25%;
+    top: 70%;
+}
+
+#accountSomeRentals{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 67%;
+    background-color: white;
+}

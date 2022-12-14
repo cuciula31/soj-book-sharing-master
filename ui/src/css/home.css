@@ -1,0 +1,170 @@
+
+#homeContainer{
+    position: relative;
+    flex-flow: column;
+    background-color:black;
+    min-height: fit-content;
+    width: 100vw;
+}
+
+
+
+#greetingContainer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 11
+    ;
+}
+
+@keyframes greetingFade {
+    0%{
+        opacity: 0%;
+    }
+    100% {
+        opacity: 40%;
+    }
+}
+
+#greetingPhotoContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url('../drawable/gotham.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 40%;
+    animation-name: greetingFade;
+     animation-duration: 5s;
+}
+
+/* #greetingPhotoBlurContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 75%;
+    z-index: 2;
+    top: 0%;
+} */
+
+#blindPickContainer{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    z-index: 2;
+}
+
+
+
+#greetingText{
+    position: absolute;
+    height: fit-content;
+    width: 50%;
+    right: 12%;
+    color: rgb(253, 255, 223);
+    filter: drop-shadow( 0 0 5rem #b9b9b9);
+    z-index: 3;
+    top: 20%;
+    font-size: 50px;
+    font-family: Stencil, fantasy;
+}
+
+#seeABookContainer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 3;
+}
+
+#newEntriesText{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    left: 5%;
+    top: 17%;
+}
+
+#newEntriesContainer{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 25%;
+}
+
+#greetingCarouselContainer{
+    position: absolute;
+    width: 100%;
+    z-index: 11;
+    bottom: 15%;
+}
+
+#topPicsText{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    left: 5%;
+    top: 62%;
+}
+
+#topPicsCarousel{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 70%;
+}
+
+#topPicsContainer{
+     position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 70%;
+}
+
+#seeABookVideo{
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    opacity: 100%;
+    z-index: 3;
+    object-fit: cover;
+    opacity: 40%;
+}
+
+#containerBackground{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+    background-color: rgba(197, 197, 197, 0.397);
+}
+
+#blindCoverPhoto{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:url('../drawable/mistery.jpg') center;
+    z-index: 11;
+    opacity: 15%;
+}
+
+#blindTitle{
+    position: absolute; 
+    width: fit-content;
+    height: fit-content;
+    font-size: 75px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    z-index: 11;
+    top: 35%;
+    left: 19%;
+}

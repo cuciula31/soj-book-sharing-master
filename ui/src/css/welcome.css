@@ -1,0 +1,33 @@
+#welcomeContainer{
+position: relative;
+width: 100vw;
+height: 100vh;
+background-color: black;
+}
+
+@keyframes photoFadeIn {
+    0%{
+        opacity: 0%;
+    }
+    100% {
+        opacity: 10%;
+    }
+}
+
+#welcomePhoto{
+    background: radial-gradient(transparent 5%, black), url('../drawable/mainPage.jpg') center no-repeat;
+    width: 100%;
+    height: 100%;
+    opacity: 10%;
+    animation-name:photoFadeIn;
+    animation-duration: 2500ms;
+
+}
+
+#welcomeText{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    left: 17%;
+}
